@@ -63,6 +63,6 @@ public class AdocaoServiceTest {
 
         //ASSERT
         //Mockito verifica se o petRepository teve o método save chamado com qualquer parametro
-        then(petRepository).should().save(any());
+        then(repository).should().save(any());
     }
 }
